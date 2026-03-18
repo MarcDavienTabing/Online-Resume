@@ -6,13 +6,16 @@
 
     body {
     font-family: Arial;
-    color: #203036;
     height: 100vh;
     margin: 0;
     background: linear-gradient(to right, #203036 30%,#fcfeff 30%);
     }
     
-
+    .gradient-text {
+    background: linear-gradient(to right, #fcfeff 30%, #203036 30%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    }
     .indent{
         margin-left: 45px
     }
@@ -65,22 +68,47 @@
 <body>
 <img src="https://github.com/MarcDavienTabing/Online-Resume/blob/main/resume%20pic.jpeg?raw=true" alt="Resume Image"width="75" height="75" style="float: left ;margin: 60px" class="circle"><br><br><br><br><br><br><br>
 <h1 style="font-size:10; margin:45px; color:#203036;" class="center">Marc Davien T. Tabing</h1><br><br><br><br>
-<hr style="border: none; height: 4px; background:#fcfeff">
+<hr style="border: none; height: 4px; background:linear-gradient(to right, #fcfeff 30%,#203036 30%);">
 <div>
-    <h2 class="font-white indent">Contact</h2>
-    <h3 class="font-white left-text">Phone</h3>
-    <p class="font-white left-text">0981 474 1345</p>
-    <h3 class="font-white left-text">Email</h3>
-    <p class="font-white left-text">24tabingmarcdavien@gmail.com</p>
-    <h3 class="font-white left-text">Adress</h3>
-    <p class="font-white left-text">Blk 2 Lot 21, ACM/Sherwood Homes, <br> Yakal St., Anabu 2-B, Imus City, Cavite</p><br>
-</div>
-<hr style="border: none; height: 4px; background:#fcfeff">
-<h2 class="font-white" style="margin-left: 45px">Expertise</h2>
-<p class="font-white indent">Python<br>Team player<br>Adaptable<br>Critical thinking</p><br>
-<hr style="border: none; height: 4px; background:#fcfeff">
-<h2 class="font-white indent">Language</h2>
-<p class="font-white left-text">Tagalog<br>English</p><br><br>
+    <div class="gradient-text">
+        <h2 class="font-white indent">Contact</h2>
+        <h3 class="font-white left-text">Phone</h3>
+        <p class="font-white left-text">0981 474 1345</p>
+        <h3 class="font-white left-text">Email</h3>
+        <p class="font-white left-text">24tabingmarcdavien@gmail.com</p>
+        <h3 class="font-white left-text">Adress</h3>
+        <p class="font-white left-text">Blk 2 Lot 21, ACM/Sherwood Homes, <br> Yakal St., Anabu 2-B, Imus City, Cavite</p><br>
+        <hr style="border: none; height: 4px; background:linear-gradient(to right, #fcfeff 30%,#203036 30%);">
+        <h2 class="font-white" style="margin-left: 45px">Expertise</h2>
+        <p class="font-white indent">Python<br>Team player<br>Adaptable<br>Critical thinking</p><br>
+        <hr style="border: none; height: 4px; background:linear-gradient(to right, #fcfeff 30%,#203036 30%);">
+        <h2 class="font-white indent">Language</h2>
+        <p class="font-white left-text">Tagalog<br>English</p><br><br>
+    </div>
+    <hr style="border: none; height: 4px; background:linear-gradient(to right, #fcfeff 30%,#203036 30%);">
+    <div class="gradient-text">
+        <h2 class="indent">Experience</h2>
+        <h3 class=" left-text">Decimal converter (2025)</h3>
+        <p class="left-text">I created a simple program that converts Decimal to Binary, Oclat, and Hexadecimal, and vise-versa for quick calculation in my intro to computing course.</p>
+        <br>
+        <h3 class="left-text">Automotive Tire Repair (2024)</h3>
+        <p class="left-text">During my on-the-job training, I learned how to clean wheel mags, check for punctures, disassembling and assembling wheels from cars, checking the wheel alignment and more.</p>
+    <br>
+    <hr style="border: none; height: 4px; background:linear-gradient(to right, #fcfeff 30%,#203036 30%);">
+    </div>
+    <br>
+    <div class="gradient-text">
+        <h2 class="left-text">Education</h2><br>
+        <h3 class="left-text">Unida Christian Colleges</h3>
+        <p class="left-text">2025 - Present <br>Bachelor of Computer Science</p><br>
+        <h3 class="left-text">Southern Philippines Institute of Science and Technology</h3>
+        <p class="left-text">2023 - 2025 <br>Senior Highschool</p><br>
+        <h3 class="left-text">General Emilio Aguinaldo National High School</h3>
+        <p class="left-text">2019 - 2023 <br>Junior Highschool</p><br>
+        <h3 class="left-text">Anabu 2 Elem. Schol</h3>
+        <p class="left-text">2027-2023</p><br><br>
+
+    </div>
 </body>
 
 </html>
